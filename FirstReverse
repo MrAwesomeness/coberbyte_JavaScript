@@ -1,0 +1,9 @@
+function FirstReverse(str) { 
+    var answer = "";
+        for(var i = 0; i < str.length; i++){
+          answer = str[i] + answer;
+        }
+        return answer; 
+}
+
+FirstReverse("I Love Code");    
