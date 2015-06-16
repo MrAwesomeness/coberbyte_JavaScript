@@ -1,0 +1,14 @@
+function LongestWord(sen) { 
+    var longest = "";
+    var string = sen.replace(/[^a-zA-Z\s]/g,"").split(" ");
+    for(var x in string){
+        if(string[x].length > y.length){
+            longest = string[x];
+        }
+    }
+  
+  return longest; 
+         
+}
+
+LongestWord("fun&!! time");                            
